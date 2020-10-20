@@ -1,0 +1,88 @@
+html,body {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+}
+
+/*============ NAVEGACION ================*/
+.navbar-brand img {
+  height: 2.8rem;
+}
+.navbar{
+  background: linear-gradient(to right, #f2f2f2, #fbfbfb);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+.nav-item{
+  padding: .4rem;
+}
+.nav-link {
+  color: black!important;
+}
+.nav-link.active,
+.nav-link:hover{
+  color: #396afc!important;
+}
+
+/*============= carousel ========================*/
+.carousel-inner{
+  max-height: 40rem!important;
+}
+
+/*============ Change carousel transition speed =================*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active{
+  transition: transform 1.2s ease;
+}
+.carousel-indicators li {
+  width: 40px;
+  height: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+/*Carousel content*/
+.carousel-caption{
+  position: absolute;
+  top: 47%;
+  transform: translateY(-50%);
+}
+.bg-dark{
+  background-color: rgba(0, 0, 0, .7)!important;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+.carousel-caption {
+  font-size: 2.3rem;
+}
+p.lead{
+  font-size: 1.4rem;
+}
+
+/*============ SOCIAL MEDIA STICKY BAR =================*/
+.jumbotron {
+  background: linear-gradient(to right, #f2f2f2, #fbfbfb);
+  padding: 1rem 0 .5rem;
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+ul.social{
+  list-style-type: none;
+  display: flex;
+  padding: 0 auto;
+}
+ul.social li{
+  margin: 0 auto;
+}
+.jumbotron .svg-inline--fa{
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+.jumbotron .svg-inline--fa:hover{
+  color: gray!important;
+}
